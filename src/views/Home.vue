@@ -162,6 +162,7 @@ import Loader from '../components/Loader.vue';
         setTimeout(() => {
           this.items.push(this.product);
           this.openDialog = false;
+          this.product = {};
           this.isLoading = false;
         },900)
       },
